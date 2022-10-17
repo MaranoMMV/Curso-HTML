@@ -5,14 +5,14 @@ body{
 }
 header{
     padding: 0.1px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(89, 2, 129);
     margin: auto;
     width: 100%;
 
 }
 
 ul li a{
-    background-color: rgb(100, 100, 100); ;
+    background-color: rgb(89, 2, 129); ;
     font-size: 20px;
     list-style-type: none;
     padding-right: 4px;
@@ -25,12 +25,12 @@ a:link{
     text-decoration: none;
 }
 a:hover{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(223, 221, 221);
     text-decoration: none;
     color: black;
 }
 a:visited{
-    color:red;
+    color:white;
     text-decoration: none;
 }
 a:active{
@@ -55,7 +55,10 @@ footer{
     width: auto;
 }
 .div_body{
-    margin: 1% 5%;
+    margin: 2% 5%;
     background-color: rgb(233, 233, 233);;
     padding-bottom: 1000px;
+}
+.dentro_body{
+    
 }
