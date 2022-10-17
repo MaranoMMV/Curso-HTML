@@ -108,3 +108,9 @@ h4{
     background-color: white;
     border-radius: 50%;
 }
+.div_home_materia{
+    margin: auto;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+}
