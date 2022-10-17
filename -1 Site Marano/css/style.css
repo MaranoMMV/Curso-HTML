@@ -17,7 +17,6 @@ header{
     min-height: 100%;
     margin-right: auto;
 }
-
 ul li a{
     background-color: rgb(89, 2, 129); ;
     font-size: 20px;
@@ -26,7 +25,7 @@ ul li a{
     font-weight: center;
     color: rgb(100, 100, 100);
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a:link{
     color:white;
@@ -87,7 +86,14 @@ h1{
     border-style: groove;
     border-radius: 5px;
     border-color: black;
+    margin-top: -0.5%;
 }
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+h3{
+    font-family: monospace;
+    font-size: 19px;
 }
