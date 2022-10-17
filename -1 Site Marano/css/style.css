@@ -120,3 +120,7 @@ h5{
     border-color: black;
     border-width: 3px;
 }
+.div_menu_completo{
+    background-color: rgb(89, 2, 129);
+    padding: 50% 0 50%;
+}
