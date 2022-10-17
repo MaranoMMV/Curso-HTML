@@ -124,3 +124,19 @@ h5{
     background-color: rgb(89, 2, 129);
     padding: 50% 0 50%;
 }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .coluna-50_esquerda {
+        width: 50%;
+        text-align: left;
+    }
+    .coluna-50_direita {
+        width: 50%;
+        text-align: right;
+    }
+
+p{
+    font-size: 16px;
+}
