@@ -33,8 +33,12 @@ a:visited{
     color:white;
     text-decoration: none;
 }
+.link:hover{
+    color: black;
+    text-decoration: none;
+}
 a:active{
-    color:orange;
+    color:black;
     text-decoration: none;
 }
 .faixa ul {
@@ -61,4 +65,10 @@ footer{
 }
 .dentro_body{
    padding: 10px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+    padding-top: 10px;
+    text-align: center;
 }
