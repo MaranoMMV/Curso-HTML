@@ -102,6 +102,12 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+h5{
+    font-size:22px;
+    font-family:'Montserrat', sans-serif;;
+    color: black;
+        font-style: normal;
+}
 .img_icon{
     height: 30px;
     width: 30px;
