@@ -82,7 +82,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size:35px;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    background-color: rgba(35, 112, 255, 0.747);
     border-style: groove;
     border-radius: 5px;
     border-color: black;
@@ -139,4 +139,7 @@ h5{
 
 p{
     font-size: 16px;
+}
+ol li{
+    list-style:disc;
 }
