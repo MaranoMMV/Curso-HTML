@@ -13,7 +13,8 @@ body{
 }
 header{
     background-color: rgb(89, 2, 129);
-    min-height: 100%;
+    min-height: 60%;
+    min-width: 100%;
     margin-right: auto;
     text-align: center;
 }
@@ -64,11 +65,10 @@ a:active{
 }
 
 footer{
-    background-color: black;
-    padding: 40px;
+    background-color: rgb(22, 22, 22);
     margin-top: auto;
     color: white;
-    width: auto;
+    /*width: auto;*/
 }
 .div_body{
     margin: 2% 5%;
@@ -82,7 +82,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size:35px;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    background-color: rgba(35, 112, 255, 0.747);
     border-style: groove;
     border-radius: 5px;
     border-color: black;
@@ -101,12 +101,20 @@ h4{
     font-size:25px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    line-height: 0.01px;
 }
 h5{
     font-size:22px;
     font-family:'Montserrat', sans-serif;;
     color: black;
         font-style: normal;
+}
+h6{
+    font-size:15px;
+    font-family:'Montserrat', sans-serif;;
+    color: white;
+    font-style: normal;
+    line-height: 0.01px;
 }
 .img_icon{
     height: 30px;
@@ -119,4 +127,45 @@ h5{
     border-style:groove;
     border-color: black;
     border-width: 3px;
+}
+.div_menu_completo{
+    background-color: rgb(89, 2, 129);
+    padding: 50% 0 50%;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .coluna-50_esquerda {
+        width: 50%;
+        text-align: left;
+    }
+    .coluna-50_direita {
+        width: 50%;
+        text-align: right;
+    }
+
+
+
+
+    .coluna_33_esquerda{
+        width: 33%;
+        text-align: left;
+        padding-left: 0.01%;
+    }
+    .coluna_33_direita{
+        width: 33%;
+        text-align: right;
+        padding-right: 0.01%;
+    }
+    .coluna_33_centro{
+        width: 33%;
+        text-align: center;
+        
+    }
+p{
+    font-size: 16px;
+}
+ol li{
+    list-style:disc;
 }
