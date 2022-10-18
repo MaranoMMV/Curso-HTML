@@ -72,7 +72,11 @@ footer{
     color: white;
     min-width: 100%;
     min-height: 10%;
+    max-width: 100%;
+    width: 100%;
     margin-right: auto;
+    margin-right: auto;
+    border:auto;
     /*width: auto;*/
 
 }
@@ -192,7 +196,7 @@ ol li{
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    height: 75%;
+    height: 100%;
     max-height: 90%;
     overflow: hidden;
   }
@@ -272,6 +276,34 @@ ol li{
   .bg-7 {
     background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-7_l3fcor.jpg);
   }
+/*imagens Desenho*/
+  .bg-8 {
+    background-image: url(../imagens/img1.jpg);
+  }
+  
+  .bg-9 {
+    background-image: url(../imagens/Gownther.jpeg);
+  }
+  
+  .bg-10 {
+    background-image: url(../imagens/Programação.jpg);
+  }
+  
+  .bg-11 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-4_opgyza.jpg);
+  }
+  
+  .bg-12 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-5_ulc9tx.jpg);
+  }
+  
+  .bg-13 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-6_la8whc.jpg);
+  }
+  
+  .bg-14 {
+    background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-7_l3fcor.jpg);
+  }
 
   .gallery__prev,
 .gallery__next {
@@ -314,6 +346,7 @@ ol li{
 }
 .diminuindo_banner{
     height: 350px;
+    padding-top:20px;
 }
 .h7{
     padding-top: 50px;
