@@ -13,11 +13,10 @@ body{
 }
 header{
     background-color: rgb(76, 26, 105);
-    min-height: 60%;
+    min-height: 10%;
     min-width: 100%;
     margin-right: auto;
     text-align: center;
-    margin: 0px 0px -10px;
 }
 ul li a{
     background-color: rgb(76, 26, 105);
@@ -70,6 +69,8 @@ footer{
     background-color: rgb(22, 22, 22);
     margin-top: auto;
     color: white;
+    min-height: 10%;
+    min-width: 100%;
     /*width: auto;*/
 }
 .div_body{
@@ -151,9 +152,6 @@ h6{
         text-align: left;
     }
 
-
-
-
     .coluna_33_esquerda{
         width: 33%;
         text-align: left;
@@ -187,18 +185,21 @@ ol li{
     box-sizing: border-box;
   }*/
 
+
+
+  
   .gallery {
-    position: relative;
+    position:relative;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    height: 80%;
+    height: 75%;
     max-height: 90%;
     overflow: hidden;
   }
   
   .gallery__stream {
-    position: relative;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -207,7 +208,7 @@ ol li{
   
   .gallery__item {
     position: absolute;
-    width: 50%;
+    width: 55%;
     height: 100%;
     transition: 1s all ease;
     background-size: cover;
@@ -298,7 +299,7 @@ ol li{
   content: "";
   position: absolute;
   top: 0;
-  width: 20%;
+  width: 10%;
   height: 100%;
   z-index: 3;
 }
