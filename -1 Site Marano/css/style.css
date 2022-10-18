@@ -17,6 +17,7 @@ header{
     min-width: 100%;
     margin-right: auto;
     text-align: center;
+    margin: 0px 0px -10px;
 }
 ul li a{
     background-color: rgb(76, 26, 105);
@@ -147,7 +148,7 @@ h6{
     }
     .coluna-50_direita {
         width: 50%;
-        text-align: right;
+        text-align: left;
     }
 
 
@@ -174,3 +175,8 @@ p{
 ol li{
     list-style:disc;
 }
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+  }
