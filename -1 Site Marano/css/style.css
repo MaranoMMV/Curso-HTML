@@ -12,14 +12,14 @@ body{
     flex-direction: column;
 }
 header{
-    background-color: rgba(59, 0, 87, 0.664);
+    background-color: rgb(76, 26, 105);
     min-height: 60%;
     min-width: 100%;
     margin-right: auto;
     text-align: center;
 }
 ul li a{
-    background-color: rgba(59, 0, 87, 0.664) ;
+    background-color: rgb(76, 26, 105);
     font-size: 20px;
     list-style-type: none;
     padding-right: 4px;
@@ -29,18 +29,18 @@ ul li a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-a:link{
+ul li a:link{
     color:white;
     text-decoration: none;
     font-weight: bold
 }
-a:hover{
+ul li a:hover{
     background-color: rgb(197, 194, 194);
     text-decoration: none;
     color: black;
     font-weight: bold
 }
-a:visited{
+ul li a:visited{
     color:white;
     text-decoration: none;
     font-weight: bold
@@ -50,7 +50,7 @@ a:visited{
     text-decoration: none;
     font-weight: bold
 }
-a:active{
+ul li a:active{
     color:black;
     text-decoration: none;
     font-weight: bold
@@ -125,6 +125,7 @@ h6{
     background-color: white;
     padding-bottom: -50px;
     border-radius:100%;
+    margin: auto;
 }
 .div_home_materia{
     margin: auto;
@@ -168,7 +169,7 @@ h6{
         
     }
 p{
-    font-size: 16px;
+    font-size: 17px;
 }
 ol li{
     list-style:disc;
