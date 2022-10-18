@@ -12,14 +12,14 @@ body{
     flex-direction: column;
 }
 header{
-    background-color: rgb(89, 2, 129);
+    background-color: rgba(59, 0, 87, 0.664);
     min-height: 60%;
     min-width: 100%;
     margin-right: auto;
     text-align: center;
 }
 ul li a{
-    background-color: rgb(89, 2, 129); ;
+    background-color: rgba(59, 0, 87, 0.664) ;
     font-size: 20px;
     list-style-type: none;
     padding-right: 4px;
@@ -27,6 +27,7 @@ ul li a{
     color: rgb(100, 100, 100);
     padding: 5px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 a:link{
     color:white;
@@ -115,12 +116,15 @@ h6{
     color: white;
     font-style: normal;
     line-height: 0.01px;
+    text-align: right;
+    word-wrap: break-word;
 }
 .img_icon{
     height: 30px;
     width: 30px;
     background-color: white;
-    border-radius: 50%;
+    padding-bottom: -50px;
+    border-radius:100%;
 }
 .div_home_materia{
     margin: auto;
