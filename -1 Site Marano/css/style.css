@@ -67,7 +67,7 @@ ul li a:active{
 }
 
 footer{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(36, 36, 36);
     margin-top: auto;
     color: white;
     min-width: 100%;
@@ -278,15 +278,15 @@ ol li{
   }
 /*imagens Desenho*/
   .bg-8 {
-    background-image: url(../imagens/img1.jpg);
+    background-image: url(../imagens/Kakashi.jpg);
   }
   
   .bg-9 {
-    background-image: url(../imagens/Gownther.jpeg);
+    background-image: url(../imagens/Gato.jpg);
   }
   
   .bg-10 {
-    background-image: url(../imagens/Programação.jpg);
+    background-image: url(../imagens/Cloud.jpg);
   }
   
   .bg-11 {
